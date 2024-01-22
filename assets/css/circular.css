@@ -1,0 +1,51 @@
+ /* circular-animation */
+ 
+ #c-2l {
+     width: 200px;
+     height: 200px;
+     margin: 0px auto;
+     border: 0px solid #925b3e;
+     position: relative;
+     border-radius: 50%;
+     animation: spin 30s linear infinite reverse;
+ }
+ 
+ #c-3l {
+     width: 300px;
+     height: 300px;
+     margin: 0px auto;
+     border: 1.5px solid #925b3e;
+     position: relative;
+     border-radius: 50%;
+     animation: spin 30s linear infinite;
+ }
+ 
+ .item {
+     width: 30px;
+     height: 30px;
+     line-height: 30px;
+     text-align: center;
+     border-radius: 50%;
+     position: absolute;
+     animation: spin 30s linear infinite reverse;
+ }
+ 
+ .item3 {
+     width: 30px;
+     height: 30px;
+     line-height: 30px;
+     text-align: center;
+     border-radius: 50%;
+     position: absolute;
+     animation: spin 30s linear infinite reverse;
+ }
+ 
+ #c-1l {
+     width: 200px;
+     height: 200px;
+     margin: -250px auto;
+     border: 1.5px solid #925b3e;
+     position: relative;
+     border-radius: 50%;
+     animation: spin 30s linear infinite;
+ }
